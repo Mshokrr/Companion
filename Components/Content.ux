@@ -1,0 +1,7 @@
+<StackPanel ux:Class="Content">
+	<string ux:Property="View" />
+	<Text FontSize="25" TextAlignment="Center" Margin="0,30">View Title</Text>
+	<Text TextWrapping="Wrap" LineSpacing="4" FontSize="15" Color="#555">
+		Content
+	</Text>
+</StackPanel>

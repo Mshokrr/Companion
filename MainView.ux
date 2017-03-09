@@ -1,0 +1,10 @@
+<App>
+  <iOS.StatusBarConfig Style="Light" />
+  <Font ux:Global="RobotoThinItalic" File="assets/Roboto-ThinItalic.ttf" />
+
+  <PageControl ux:Name="pageControl" InactiveState="Unchanged">
+    <ParallaxPage TitleText="MAIN FOCUS"  Js="Views/js/MainFocus.js"   ThemeColor="#9C27B0" ImageFile="assets/bg1.jpg" />
+		<ParallaxPage TitleText="TO-DO-LIST" Js="Views/js/Todo.js" ThemeColor="#E91E63" ImageFile="assets/bg3.jpg" />
+		<ParallaxPage TitleText="NOTES"  Js="Views/js/Notes.js" ThemeColor="#43A047" ImageFile="assets/bg2.jpg" />
+  </PageControl>
+</App>
